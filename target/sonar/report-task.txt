@@ -1,0 +1,6 @@
+projectKey=HelloWorldTest
+serverUrl=http://localhost:9000
+serverVersion=25.8.0.112029
+dashboardUrl=http://localhost:9000/dashboard?id=HelloWorldTest
+ceTaskId=16f5a8b5-7424-4057-b67c-43bbce30a487
+ceTaskUrl=http://localhost:9000/api/ce/task?id=16f5a8b5-7424-4057-b67c-43bbce30a487

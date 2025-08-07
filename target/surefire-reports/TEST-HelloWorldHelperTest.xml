@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="HelloWorldHelperTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="HelloWorldHelperTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sonar.token" value="sqp_f16e35cf871176b617b447032cb58e2e133d7a10"/>
     <property name="java.vm.version" value="17.0.15+6-Ubuntu-0ubuntu124.10"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/home/student/build02"/>
@@ -34,13 +35,15 @@
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/student"/>
     <property name="user.timezone" value="Etc/UTC"/>
+    <property name="sonar.host.url" value="http://localhost:9000"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
+    <property name="sonar.projectKey" value="HelloWorldTest"/>
     <property name="user.name" value="student"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify sonar:sonar -Dsonar.projectKey=HelloWorldTest -Dsonar.projectName=HelloWorldTest -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_f16e35cf871176b617b447032cb58e2e133d7a10"/>
     <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -57,7 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="sonar.projectName" value="HelloWorldTest"/>
   </properties>
-  <testcase classname="HelloWorldHelperTest" name="testEnglish" time="0.002"/>
+  <testcase classname="HelloWorldHelperTest" name="testEnglish" time="0.001"/>
   <testcase classname="HelloWorldHelperTest" name="testSpanish" time="0"/>
 </testsuite>
